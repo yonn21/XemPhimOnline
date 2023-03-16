@@ -6,7 +6,7 @@ export default function Footer(props) {
         <div className='footer'>
             <div className="container">
                 <div className="row">
-                    <div className="col">
+                    <div className="col footer_logo">
                         logo
                     </div>
                     <div className="col">
@@ -21,7 +21,7 @@ export default function Footer(props) {
                     </div>
                     <div className="col">
                         <ul className="footer_nav">
-                            <li className="nav-item active">
+                            <li className="nav-item">
                                 <NavLink className="nav-link" to="/">Home</NavLink>
                             </li>
                             <li className="nav-item">
