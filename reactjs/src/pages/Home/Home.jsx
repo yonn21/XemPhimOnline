@@ -92,6 +92,7 @@ export default function Home(props) {
                     }}>2021</button>
                 </li>
             </ul>
+            
             <div className="list-film">
                 {/* {renderPhimChieuRap()} */}
                 <div className="clear"></div>
