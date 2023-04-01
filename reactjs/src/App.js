@@ -6,6 +6,7 @@ import Home from './pages/Home/Home';
 import Info from './pages/Info/Info';
 import AdminTemplates from './templates/AdminTemplates/AdminTemplates';
 import Admin from './pages/Admin/Admin';
+import Genre from './pages/Genre/Genre';
 export const history = createBrowserHistory();
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       <Switch>
         <HomeTemplates path="/phim" exact Component={Home} />
         <AdminTemplates path="/admin" exact Component={Admin} />
-        <HomeTemplates path="/info/:name" exact Component={Info} />
+        <HomeTemplates path="/info/:name"  Component={Info} />
+        <HomeTemplates path="/genre/:category" Component={Genre} />
 
         <HomeTemplates path="/" exact Component={Home} />
       </Switch>

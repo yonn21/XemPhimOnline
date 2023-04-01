@@ -1,11 +1,9 @@
 import React from 'react'
 import { useSelector } from 'react-redux';
-import { useParams } from 'react-router-dom';
 
-export default function Info(props) {
+export default function Info({match}) {
     const { listPhimLe } = useSelector(state => state.filmReducer);
-    let { name } = useParams();
-    console.log(name)
+    let name = match.params.name;
     const film = listPhimLe.find(film => film.name === name);
 
     return (
