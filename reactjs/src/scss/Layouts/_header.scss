@@ -8,6 +8,19 @@
             color: $color-orange;
         }
     }
+    .dropdown-menu {
+        background-color: $bg-color-black-1;
+        top: 108%;
+        width: 350px;
+        .dropdown-item {
+            padding: 5px 15px;
+            background-color: $bg-color-black-1;
+            color: $color-white;
+            &:hover {
+                color: $color-orange;
+            }
+        }
+    }
     .header-form {
         border: 1px solid $color-white;
         .form-search {
