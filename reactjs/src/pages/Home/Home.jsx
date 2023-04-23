@@ -69,21 +69,21 @@ export default function Home(props) {
                     
                 }}>PHIM LẺ MỚI CẬP NHẬT</h4>
                 <li className="nav-item">
-                    <button className="nav-link btn" onClick={() => {
+                    <button id="btn-phim-hanh-dong" className="nav-link btn" onClick={() => {
                         const theloai = "phim hành động";
                         const action = getPhimLeTheoTheLoai(theloai);
                         dispatch(action);
                     }}>Hành động</button>
                 </li>
                 <li className="nav-item">
-                    <button className="nav-link btn" onClick={() => {
+                    <button id="btn-phim-hoat-hinh"  className="nav-link btn" onClick={() => {
                         const theloai = "phim hoạt hình";
                         const action = getPhimLeTheoTheLoai(theloai);
                         dispatch(action);
                     }}>Hoạt hình</button>
                 </li>
                 <li className="nav-item">
-                    <button className="nav-link btn" onClick={() => {
+                    <button id="btn-phim-kinh-di" className="nav-link btn" onClick={() => {
                         const theloai = "phim ma - kinh dị";
                         const action = getPhimLeTheoTheLoai(theloai);
                         dispatch(action);

@@ -25,7 +25,7 @@ export default function Header(props) {
                             <div className="dropdown-menu">
                                 <div className="row">
                                     <div className="col-6">
-                                        <NavLink id="btn-phim-hanh-dong" className="dropdown-item" to="/genre/phim hành động">Phim Hành Động</NavLink>
+                                        <NavLink className="dropdown-item" to="/genre/phim hành động">Phim Hành Động</NavLink>
                                         <NavLink className="dropdown-item" to="/genre/phim tình cảm">Phim Tình Cảm</NavLink>
                                         <NavLink className="dropdown-item" to="/genre/phim hài hước">Phim Hài Hước</NavLink>
                                         <NavLink className="dropdown-item" to="/genre/phim cổ trang">Phim Cổ Trang</NavLink>
